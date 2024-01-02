@@ -1,12 +1,14 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import ShoppingNav from "./components/shoppingnav";
+import Header from "./components/header";
+import RoutesTree from "./components/routes-tree";
 
 function App() {
   return (
     <div className="App">
-      <ShoppingNav />
+      <Header />
+      <RoutesTree />
     </div>
   );
 }
